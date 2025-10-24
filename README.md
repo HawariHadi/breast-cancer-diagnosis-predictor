@@ -34,8 +34,15 @@ python src/infer.py --model models/model.joblib --input samples/new_patients.csv
 - `.github/workflows/` CI
 
 ## 📚 Dataset
-Add the dataset link & license in `data/README.md`.
-Data is **not** included in this repo.
+This project uses the **Breast Cancer Diagnostic Dataset**.
+
+- **Source:** [Alister Baroi’s Breast Cancer Dataset](https://raw.githubusercontent.com/AlisterBaroi/breast-cancer-diagnosis-predictor/main/Breast_Cancer_Dataset.csv)
+- **Description:** Contains tabular features extracted from X-ray scans of breast tissue (e.g., radius, texture, compactness, etc.) and a diagnosis label (`M` = malignant, `B` = benign).
+- **License:** The dataset is publicly available for educational and research use.
+- **Format:** CSV file with 12 columns and 80 rows.
+
+⚠️ Data is **not included directly** in this repository.  
+You can download it using the link above or replace it with a local file at runtime.
 
 ## 🧾 License
 MIT
