@@ -19,7 +19,7 @@ Python, scikit-learn, NumPy, Pandas, Matplotlib
 python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-# Prepare your processed CSVs (see data/README.md), then:
+
 python src/train.py --data data/processed --outdir models/
 python src/evaluate.py --data data/processed --model models/model.joblib
 python src/infer.py --model models/model.joblib --input samples/new_patients.csv --output predictions.csv
