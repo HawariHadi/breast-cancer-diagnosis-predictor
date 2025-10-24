@@ -3,7 +3,7 @@
 
 Predicts benign/malignant diagnosis from tabular features extracted from breast X-ray scans using an Artificial Neural Network (ANN).
 
-> This is a cleaned, professional starter pack for your GitHub repository.
+
 
 ## 🔍 Goals
 - Clean/preprocess dataset
