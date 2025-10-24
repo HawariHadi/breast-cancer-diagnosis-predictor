@@ -1,0 +1,23 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+env/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Data & models
+data/*
+!data/README.md
+models/*
+!models/README.md
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
